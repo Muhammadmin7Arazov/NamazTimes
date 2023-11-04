@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>PrayerTimes</title>
+</head>
+<body>
+    <section id="all">
+        <div class="form dateForm">
+            <form action="">
+                <h2>Choose the date:</h2>
+                <input id="datePicker" type="date" name="date">
+                <button id="getDailyTime" type="submit" name="getDailyTime">Get Times</button>
+            </form>
+            <button id="mainPage" class="mainPage" type="submit">Back to Main Page</button>
+        </div>
+        <div class="form monthForm">
+            <form action="">
+                <h2>Choose the month:</h2>
+                <input type="month" id="months" name="months">
+                <button id="getMonthTime" type="submit" name="getMonthTime">Get Times</button>
+            </form>
+            <button id="mainPage" class="mainPage" type="submit">Back to Main Page</button>
+        </div>
+        <div class="container">
+            <div class="dailyOrMonthly">
+                <h1>Display Prayer Times</h1>
+                <div>
+                    <button id="daily">Daily</button>
+                    <h1>or</h1>
+                    <button id="monthly">Monthly</button>
+                </div>
+            </div>
+            <div class="table">
+                <table id="table" class="tg">
+                    <thead>
+                        <tr>
+                            <th class="tg-days">Days</th>
+                            <th class="tg-times">Fajr</th>
+                            <th class="tg-times">Sunrise</th>
+                            <th class="tg-times">Dhuhr</th>
+                            <th class="tg-times">Asr</th>
+                            <th class="tg-times">Maghrib</th>
+                            <th class="tg-times">Isha</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"
+        integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>

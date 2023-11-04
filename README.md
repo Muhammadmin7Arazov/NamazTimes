@@ -1,3 +1,3 @@
 # NamazTimes
 
-Developer Arzu Goyushova (ArzuGoyushova)
+Developer Arzu Goyushova (ArzuGoyushova), Muhammadamin Arazov (commiter)
